@@ -1,5 +1,5 @@
 public class Abstraction {
-    // Abstract class
+    // Abstracts class
     abstract static class Animal {
         abstract void speak(); // Abstract method
     }

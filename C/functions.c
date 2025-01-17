@@ -4,7 +4,7 @@ void print_hello() {
     printf("Hello from function!\n");
 }
 
-int main() {
+int main() { 
     print_hello();
     return 0;
 }

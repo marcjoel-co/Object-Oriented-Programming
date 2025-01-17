@@ -1,7 +1,13 @@
 #include <stdio.h>
 
 // Function to manipulate an array using pointers
-void manipulate_array(int* arr, int size) {
+/**
+ * Manipulates the elements of the given array by doubling their values.
+ *
+ * @param arr The array to be manipulated.
+ * @param size The size of the array.
+ */
+void manipulate_array(int* arr, int size) { 
     for (int i = 0; i < size; i++) {
         arr[i] *= 2;
     }
@@ -18,5 +24,5 @@ int main() {
     }
     printf("\n");
 
-    return 0;
+    return 0;   
 }
