@@ -1,7 +1,9 @@
+// pointers in Java are not like C/C++ pointers. In Java, pointers are used to store the memory address of an object.
 public class PointersArrays {
+
     public static void manipulateArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            arr[i] *= 2;
+            arr[i] *= 4;
         }
     }
 
