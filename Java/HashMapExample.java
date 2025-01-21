@@ -1,4 +1,13 @@
-import java.util.HashMap;
+/*
+    * HashMapExample.java
+    * This class demonstrates how to use a HashMap in Java.
+    * A HashMap is a collection that stores key-value pairs.
+    * The keys are unique and the values can be duplicated.
+    * The keys and values can be of any type.
+    * The HashMap class is part of the java.util package.
+    */ 
+
+import java.util.HashMap; 
 
 class HashMapExample {
     private HashMap<String, Integer> hashmap;
