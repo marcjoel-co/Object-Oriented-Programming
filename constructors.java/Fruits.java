@@ -2,7 +2,7 @@ public class Fruits {
 
     public String color;
     public String vitamins;
-
+    // a constructor first hand, it starts everytime amn object of a type is created
     Fruits (String color, String vitamins) {
      this.color = color;
      this.vitamins = vitamins;
