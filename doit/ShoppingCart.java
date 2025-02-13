@@ -38,13 +38,4 @@ public class  ShoppingCart
 
         
     }
-    public static void optionMenu()
-    {
-        System.out.println("Choose an option: ");
-        System.out.println("1. Define amount of itemcart for user");
-        System.out.println("2. Define name of user");
-        System.out.println("3. Define price of item");
-        System.out.println("4. Exit");
-        System.out.println("Without anyother defaults to exit");
-    }
 }
